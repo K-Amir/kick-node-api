@@ -1,6 +1,6 @@
 import puppeteer from "puppeteer";
 
-export const makeHttpRequest = async <T>(url: string): Promise<T> => {
+export const getJSONFromHTML = async <T>(url: string): Promise<T> => {
   const browser = await puppeteer.launch({
     headless: "new",
   });

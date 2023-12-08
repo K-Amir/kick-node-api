@@ -14,7 +14,7 @@ npm install kick-node-api
 import { getChannelData, getChatroomMessagesByChannelId } from "kick-node-api";
 
 // returns channel info
-const data = await getChannelData("xQc");
+const data = await getChannelData("bluewool");
 
 // gets every chat message  from the stream
 getChatroomMessagesByChannelId(res.chatroom.id, (message) => {});
